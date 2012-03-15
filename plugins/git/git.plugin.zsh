@@ -38,6 +38,7 @@ alias gss='git status -s'
 compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
+alias gap='git add -p'
 alias gm='git merge'
 compdef _git gm=git-merge
 alias grh='git reset HEAD'
