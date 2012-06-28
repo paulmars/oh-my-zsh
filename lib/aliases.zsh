@@ -21,7 +21,7 @@ alias l='ls -lA1'
 alias ll='ls -l'
 alias la='ls -lA'
 alias sl=ls # often screw this up
-
-alias afind='ack-grep -il'
-alias chc="git diff --cached --ignore-space-at-eol | mate"
-
+#
+# alias afind='ack-grep -il'
+# alias chc="git diff --cached --ignore-space-at-eol | mate"
+#
