@@ -1,5 +1,8 @@
 setopt correct_all
 
+alias gem='nocorrect gem'
+alias hem='nocorrect hem'
+
 alias man='nocorrect man'
 alias mv='nocorrect mv'
 alias mysql='nocorrect mysql'
