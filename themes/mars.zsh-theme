@@ -1,5 +1,5 @@
 function last_command() {
-  echo `history -1 | cut -d ' ' -f 3-20 | /usr/bin/ruby -I~/Development/realiaser/lib ~/Development/realiaser/bin/realiaser`
+  echo `history | tail -1 | cut -d ' ' -f 3-20 | /usr/bin/ruby -I~/Development/realiaser/lib ~/Development/realiaser/bin/realiaser`
 }
 
 PROMPT='%{$fg_bold[green]%}%p%{$fg[green]%}%~ %{$fg_bold[cyan]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}'
