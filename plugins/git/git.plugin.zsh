@@ -1,6 +1,6 @@
 # # Aliases
-# alias g='git'
-# compdef g=git
+alias g='git'
+compdef g=git
 alias gst='git status -s -b'
 compdef _git gst=git-status
 # alias gl='git pull'
@@ -35,6 +35,9 @@ compdef _git gco=git-checkout
 # alias ga='git add'
 # compdef _git ga=git-add
 alias gap='git add -p'
+
+alias gtd='git td'
+
 # alias gm='git merge'
 # compdef _git gm=git-merge
 # alias grh='git reset HEAD'
